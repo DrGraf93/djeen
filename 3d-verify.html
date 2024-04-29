@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djeen Web App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="otp-main">
+        <div class="otp-content">
+            <div class="otp-header">
+                <h2>
+                    Telefona gələn <span class="primary-color">OTP kodu</span>nu aşağıdakı xanalara daxil edin
+                </h2>
+            </div>
+
+            <form action="" method="post">
+
+
+                <div class="otp-inputs">
+                    <input type="number" maxlength="1" class="otp-error-bottom">
+                    <input type="number" maxlength="1" class="otp-error-top">
+                    <input type="number" maxlength="1" class="otp-error-bottom">
+                    <input type="number" maxlength="1" class="otp-without-error">
+
+                    <!-- Defolt olaraq  class="otp-without-error" görsənəcək. xəta olarsa class="otp-error-bottom" görsənəcək. -->
+                </div>
+
+
+                <input class="btn-light otp-submit" type="submit" value="Təsdiqlə">
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
