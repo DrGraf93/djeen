@@ -4,6 +4,10 @@ body {
   font-family: "Unbounded", sans-serif;
   background: #f3f3f3;
 }
+
+.primary-color {
+  color: #5200ff;
+}
 /*---------- Main ----------*/
 /*---------- Main Top ----------*/
 .main-top {
@@ -30,9 +34,7 @@ body {
   line-height: 11px;
   text-align: center;
 }
-.main-purple {
-  color: #5200ff;
-}
+
 
 /*---------- Main Content ----------*/
 
