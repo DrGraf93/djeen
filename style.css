@@ -8,6 +8,22 @@ body {
 .primary-color {
   color: #5200ff;
 }
+
+.btn-light{
+  height: 45px;
+  padding: 0 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px #5200FF26;
+  border-radius: 8px;
+  color: #5200ff;
+  border: none;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 /*---------- Main ----------*/
 /*---------- Main Top ----------*/
 .main-top {
@@ -23,6 +39,7 @@ body {
   height: 29px;
   margin-right: 6px;
 }
+
 .main-djeen {
   width: 60px;
   height: 30px;
@@ -83,4 +100,52 @@ body {
   background-color: #fff;
   color: #5200ff;
   border-radius: 6px;
+}
+
+
+
+/***************** REGISTER PAGE ******************/
+.register-main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-main h3{
+
+}
+
+.register-main form {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.register-main form .input-container {
+  background-color: #fff;
+  padding: 15px 15px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.register-main form .input-container label {
+  color: #9A9A9A;
+  font-size: 14px;
+}
+
+.register-main form .input-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.register-main p {
+  color: #9A9A9A;
+}
+
+.register-main p a{
+  text-decoration: none;
+  color: #000;
 }

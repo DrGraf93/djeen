@@ -1,20 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Djeen Web App</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-<div class="register">
-    <div class="reg-header">
-        <h3>
-            Qeydiyyatdan keç və <br>
-            <span class="">Alış-verişə başla</span>
-        </h3>
+
+    <div class="register-main">
+        <div class="register-content">
+            <div class="reg-header">
+                <h2>
+                    Qeydiyyatdan keç və <br>
+                    <span class="primary-color">alış-verişə başla</span>
+                </h2>
+            </div>
+
+            <form action="" method="post">
+
+
+                <div class="input-container">
+                    <label for="user_fulname">Ad, Soyad</label>
+                    <input type="text" name="user_fulname" id="user_fulname">
+                </div>
+
+                <div class="input-container">
+                    <label for="user_username">İstifadəçi adı</label>
+                    <input type="text" name="user_username" id="user_username">
+                </div>
+
+                <div class="input-container">
+                    <label for="user_store">Mağaza adı (varsa)</label>
+                    <input type="text" name="user_store" id="user_store">
+                </div>
+
+                <div class="input-container">
+                    <label for="user_phone">Telefon nömrəsi</label>
+                    <input type="tel" name="user_phone" id="user_phone">
+                </div>
+
+                <div class="input-container">
+                    <label for="user_email">E-poçt hesabı</label>
+                    <input type="email" name="user_email" id="user_email">
+                </div>
+
+                <div class="input-container">
+                    <label for="user_password">Şifrə təyin et</label>
+                    <input type="password" name="user_password" id="user_password">
+                </div>
+
+                <div class="input-container">
+                    <label for="user_c_password">Şifrəni təkrarla</label>
+                    <input type="password" name="user_c_password" id="user_c_password">
+                </div>
+
+                <p>Əgər hesabın varsa <strong><a href="index.html">Daxil ol</a></strong>.</p>
+
+
+                <input class="btn-light" type="submit" value="Təsdiqlə">
+
+            </form>
+        </div>
+
     </div>
-</div>
 
 </body>
+
 </html>
