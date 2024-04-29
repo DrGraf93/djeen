@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+
+body {
+  font-family: "Unbounded", sans-serif;
+  background: #f3f3f3;
+}
+/*---------- Main ----------*/
+/*---------- Main Top ----------*/
+.main-top {
+  margin-top: 52px;
+  padding: 55px 140px 140px;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo {
+  width: 29px;
+  height: 29px;
+  margin-right: 6px;
+}
+.main-djeen {
+  width: 60px;
+  height: 30px;
+}
+
+.main-top p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: center;
+}
+.main-purple {
+  color: #5200ff;
+}
+
+/*---------- Main Content ----------*/
+
+.main-content h2 {
+  padding: 0 13px;
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+.main-content p {
+  font-size: 8px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form-input,
+.form-buttom {
+  font-size: 16px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  color: #9a9a9a;
+  transition: 0.3s;
+}
+
+.form-input {
+  padding: 0 0 0 10px;
+  border: none;
+  transition: 0.3s;
+}
+
+.form-buttom {
+  padding: 10px 20px;
+  border: none;
+  font-size: 8px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #5200ff;
+  border-radius: 6px;
+}
