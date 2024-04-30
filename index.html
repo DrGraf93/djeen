@@ -14,42 +14,45 @@
       <div class="main-top">
         <img
           class="main-logo"
-          src="images/logo/page 2/djeen logo.svg"
+          src="images/logo/page 2/djeen logo.png"
           alt="logo"
-        />
-        <img
-          class="main-djeen"
-          src="images/logo/page 2/djeen.png"
-          alt="djeen"
         />
         <p>Axtardığını <span class="primary-color">djeen</span>dən arzula</p>
       </div>
       <!---------- Main Top Finish ---------->
       <!---------- Main Content Start ---------->
-      <div class="main-content">
-        <h2>
-          Məlumatlarını doldur və
-          <span class="primary-color">alış-verişə başla</span>
-        </h2>
+      <div class="login-main">
+        <div class="login-content">
+          <div class="log-header">
+            <h2>
+              Qeydiyyatdan keç və <br />
+              <span class="primary-color">alış-verişə başla</span>
+            </h2>
+          </div>
 
-        <form class="form">
-          <div class="form-group">
-            <input type="email" class="form-input" />
-            <label for="" class="form-label">Email və ya nömrə daxil et</label>
-          </div>
-          <div class="form-group">
-            <div class="form-group">
-              <input type="password" class="form-input" />
-              <label for="" class="form-label">Şifrəni daxil et</label>
+          <form action="" method="post">
+            <div class="input-container">
+              <label for="user_email">Email və ya nömrə daxil et</label>
+              <input type="email" name="user_email" id="user_email" />
             </div>
-            <p>Əgər hesabın yoxdursa,<b>qeydiyyatdan keç</b></p>
-            <button class="form-buttom">Təsdiqlə</button>
-          </div>
-          <!---------- Main Content Finish ---------->
-          <span></span>
-        </form>
+
+            <div class="input-container">
+              <label for="user_password">Şifrəni daxil et</label>
+              <input type="password" name="user_password" id="user_password" />
+            </div>
+
+            <p>
+              Əgər hesabın yoxdursa
+              <strong><a href="register.html">qeydiyyatdan keç</a></strong
+              >.
+            </p>
+
+            <input class="btn-light" type="submit" value="Təsdiqlə" />
+          </form>
+        </div>
       </div>
     </div>
+    <!---------- Main Content Finish ---------->
     <!---------- Main finish ---------->
   </body>
 </html>
