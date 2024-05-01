@@ -1,7 +1,7 @@
 /*---------- Basic elements ----------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
-*{
+* {
   font-family: "Unbounded", sans-serif;
 }
 
@@ -14,9 +14,9 @@ body {
   color: #5200ff;
 }
 
-.btn-success{
+.btn-success {
   border-radius: 15px;
-  background: #04B700;
+  background: #04b700;
   padding: 15px 35px;
   border: none;
   color: #fff;
@@ -104,7 +104,8 @@ body {
   color: #000;
 }
 
-/***************** REGISTER PAGE ******************/
+/*---------- Register Page ----------*/
+
 .register-main {
   display: flex;
   align-items: center;
@@ -146,7 +147,8 @@ body {
   color: #000;
 }
 
-/******************* OTP VERİFY PAGE ************************/
+/*---------- OTP Verify Page ----------*/
+
 .otp-main {
   display: flex;
   height: 100vh;
@@ -192,7 +194,8 @@ body {
   transform: translateX(-50%);
 }
 
-/************************ PRODUCT PAGE ******************/
+/*---------- Product Page ----------*/
+
 .swiper {
   width: 100%;
   height: 350px;
@@ -213,8 +216,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
-
 
 /*---------- Product Signs ----------*/
 .product-detail .product-signs {
@@ -248,7 +249,6 @@ body {
   display: inline-flex;
 }
 
-
 .product-detail .product-info .product-head {
   display: flex;
   width: 90%;
@@ -269,8 +269,7 @@ body {
 }
 
 .product-detail .product-info .product-head .price .old-price {
-  color: #4B4B4B;
-  ;
+  color: #4b4b4b;
 }
 
 .product-detail .product-info .discount {
@@ -314,7 +313,7 @@ body {
 
 .product-detail form .print-img {
   width: 100%;
-  border: 2px dotted #4B4B4B;
+  border: 2px dotted #4b4b4b;
   border-radius: 15px;
   height: fit-content;
   outline: none;
@@ -322,13 +321,10 @@ body {
   padding: 12px;
 }
 
-
-
-.product-detail form .print-img label{
-  color: #B0B0B0;
+.product-detail form .print-img label {
+  color: #b0b0b0;
   font-size: 14px;
 }
-
 
 .product-detail form .input-container textarea {
   border-radius: 15px;
@@ -339,8 +335,8 @@ body {
   color: #000;
 }
 
-.product-detail form .input-container textarea::placeholder{
-  color: #B0B0B0;
+.product-detail form .input-container textarea::placeholder {
+  color: #b0b0b0;
   font-size: 14px;
 }
 
@@ -350,6 +346,20 @@ body {
   border: none;
   outline: none;
   padding: 12px;
-  color: #B0B0B0;
+  color: #b0b0b0;
   font-size: 14px;
+}
+
+/*---------- Menu ----------*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 10px;
+}
+
+.menu img {
+  width: 24px;
+  height: 24px;
 }
