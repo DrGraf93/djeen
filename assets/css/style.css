@@ -1,12 +1,9 @@
-/*---------- Basic elements ----------*/
-
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
 * {
   font-family: "Unbounded", sans-serif;
 }
 
 body {
-  font-family: "Unbounded", sans-serif;
   background: #f3f3f3;
 }
 
@@ -37,8 +34,7 @@ body {
   font-size: 14px;
 }
 
-/*---------- Main ----------*/
-/*---------- Main Top ----------*/
+/***************** INDEX ****************/
 .main-top {
   margin-top: 52px;
   padding: 55px 120px 140px;
@@ -58,8 +54,6 @@ body {
   line-height: 11px;
   text-align: center;
 }
-
-/*---------- Main Content ----------*/
 
 .login-main {
   display: flex;
@@ -104,7 +98,7 @@ body {
   color: #000;
 }
 
-/*---------- Register Page ----------*/
+/*************** Register Page ****************/
 
 .register-main {
   display: flex;
@@ -147,7 +141,7 @@ body {
   color: #000;
 }
 
-/*---------- OTP Verify Page ----------*/
+/*************** OTP Verify Page *****************/
 
 .otp-main {
   display: flex;
@@ -194,7 +188,7 @@ body {
   transform: translateX(-50%);
 }
 
-/*---------- Product Page ----------*/
+/******************* Product Page *******************/
 
 .swiper {
   width: 100%;
@@ -217,7 +211,11 @@ body {
   object-fit: cover;
 }
 
-/*---------- Product Signs ----------*/
+.product-detail{
+  max-height: 100vh;
+  padding: 10px;
+}
+
 .product-detail .product-signs {
   display: flex;
   justify-content: space-between;
@@ -291,8 +289,6 @@ body {
   height: 80%;
 }
 
-/*---------- Product Form Input ----------*/
-
 .product-detail p {
   text-align: justify;
 }
@@ -353,13 +349,33 @@ body {
 /*---------- Menu ----------*/
 
 .menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   text-align: center;
-  margin: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 -1px 6px rgba(176, 176, 176, 0.726);
+  border-radius: 6px 6px 0 0;
+}
+
+.menu .menu-item{
+  width: 20vw;
+  text-align: center;
+}
+
+.menu .menu-item p{
+  margin-top: -2px;
 }
 
 .menu img {
   width: 24px;
   height: 24px;
+}
+
+.menu .menu-name{
+  font-size: 12px;
 }
