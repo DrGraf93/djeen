@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    
+
     <!---------- Product Image ---------->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -163,12 +163,39 @@
         </select>
       </div>
 
-      <input type="submit" class="btn-success" value="Sifarişi göndər" />
+      <a class="btn-success" onclick="openSuccessModal()" >Sifarişi göndər</a>
     </form>
 
+    <div class="modal-container" id="myModal">
+      <div class="modal-content">
+        <h2>Sifarişi göndər <span>düyməsi nədir?!</span></h2>
+        <img src="assets/images/vectors/warning.png" alt="warning-modal">
+
+        <p>
+          Siz qeyd etməli olduğunuz məlumatları uyğun xanlara doldurduqdan sonra “sifarişi göndər” düyməsinə klik
+          edərək sifarişinizi satıcıya bildirirsiniz.
+          Daha sonra tez bir zamanda satıcı sizə geri dönüş edərək məhsulunuzun hazır olma müddətini bildirəcək
+        </p>
+        <button class="modal-button" onclick="closeModal()">Tam oxudum və anladım</button>
+      </div>
+    </div>
+
+    <div class="success-modal-container" id="successModal">
+      <div class="modal-content">
+        <h2>Sifarişiniz satıcıya göndərildi</h2>
+        <img src="assets/images/vectors/success.png" alt="success-modal">
+
+        <p>
+          Tez bir zamanda satıcı sizə geri dönüş edərək məhsulunuzun hazır olma müddətini bildirəcək
+        </p>
+        <a class="modal-button" onclick="closeSuccessModal()">OK</a>
+      </div>
+    </div>
 
 
   </div>
+
+
 
 
 
@@ -214,6 +241,31 @@
       $control.css("display", "none");
       $(".image-button").css("display", "block");
     });
+  </script>
+
+  <script>
+    var alertModal = document.getElementById("myModal");
+    var successModal = document.getElementById("successModal")
+
+    function openModal() {
+      alertModal.style.display = "flex";
+    }
+
+    function openSuccessModal() {
+      successModal.style.display = "flex";
+    }
+
+    function closeModal() {
+      alertModal.style.display = "none";
+    }
+
+    function closeSuccessModal() {
+      successModal.style.display = "none";
+    }
+
+    window.onload = function () {
+      openModal();
+    };
   </script>
 </body>
 
